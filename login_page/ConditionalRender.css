@@ -1,0 +1,33 @@
+body{
+    background-color:#635985;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+}
+
+.Container,form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0px;
+}
+
+.field{
+    border: 2px solid black;
+    height:50px;
+    width:300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+::placeholder{
+    text-align: center;
+    color:rgb(0, 30, 255,0.5);
+}
