@@ -1,0 +1,48 @@
+.profile{
+    overflow-x: hidden;
+}
+.backimg{
+    width: 100vw;
+    height: 90vh;
+}
+
+.txt{
+    position: absolute;
+    color: white;
+    bottom: 10rem;
+    width: 50vw;
+    text-align: center;
+    left: 20rem;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.carousel{
+    margin:5rem 2rem 5rem 10rem;
+    height:60vh;
+    width:80vw;
+    background-color: black;
+    border-radius: 10px ;
+}
+
+.item1{
+    color: white;
+    text-align: center;   
+    margin-top: 13rem;
+}
+
+.item2{
+    width:75rem;
+    height: 25rem;
+    padding: 1rem;
+    color: black;
+}
+
+.github{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2rem;
+}
